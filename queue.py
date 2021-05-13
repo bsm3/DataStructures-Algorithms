@@ -28,3 +28,6 @@ class Queue:
 		while temp != None:
 			print(temp.a)
 			temp = temp.next
+
+			
+			
