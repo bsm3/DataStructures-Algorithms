@@ -9,13 +9,13 @@ class Queue:
 
 	def enque(self, x):
 		if self.node == None:
-			new = eq(x)
+			new = Stack(x)
 			self.node = new
 		else:
 			temp = self.node
 			while temp.next != None:
 				temp = temp.next
-			new = eq(x)
+			new = Stack(x)
 			temp.next = new
 	def deque(self):
 		if self.node == None:
